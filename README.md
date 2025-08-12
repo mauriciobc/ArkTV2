@@ -1,4 +1,5 @@
-# ArkTV
+# ArkTV - IPTV for ArkOS
+![](https://github.com/AeolusUX/ArkTV/blob/main/ArkTV.png)
 
 ArkTV is a simple, terminal-based IPTV player for Linux devices, built with bash and powered by [mpv](https://mpv.io/).  
 It lets you browse and stream internet TV channels using an intuitive menu interface with joystick support, ideal for retro handhelds and embedded devices.
