@@ -26,3 +26,9 @@ It lets you browse and stream internet TV channels using an intuitive menu inter
 
    ```bash
    chmod +x ArkTV.sh
+## License
+
+ArkTV is licensed under the MIT License.
+
+This project uses [mpv](https://mpv.io/), which is licensed under GPLv2 or later by default  
+(or LGPLv2.1 or later if built with `-Dgpl=false`). Please see [mpv's license details](https://mpv.io/) for more information.
