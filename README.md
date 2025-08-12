@@ -23,10 +23,6 @@ It lets you browse and stream internet TV channels using an intuitive menu inter
 
 2. Paste the script into your device's **tools** or **ports** folder (where you keep executable scripts).
 
-3. Make the script executable:
-
-   ```bash
-   chmod +x ArkTV.sh
 ## License
 
 ArkTV is licensed under the MIT License.
