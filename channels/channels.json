@@ -5,13 +5,13 @@
     {"name": "One PH", "url": "https://ott.m3u8.nathcreqtives.com/oneph/manifest.m3u8"},
     {"name": "RPTV", "url": "https://ott.m3u8.nathcreqtives.com/rptv/manifest.m3u8"},
     {"name": "A2Z", "url": "https://ott.m3u8.nathcreqtives.com/a2z/manifest.m3u8"},
-    {"name": "A2Z SD", "url": "https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5.m3u8"},
     {"name": "ALL TV", "url": "https://ott.m3u8.nathcreqtives.com/alltv/manifest.m3u8"},
     {"name": "Knowledge Channel", "url": "https://ott.m3u8.nathcreqtives.com/knowledgechannel/manifest.m3u8"},
     {"name": "Metro Channel", "url": "https://ott.m3u8.nathcreqtives.com/metrochannel/manifest.m3u8"},
     {"name": "One News", "url": "https://ott.m3u8.nathcreqtives.com/onenews/manifest.m3u8"},
     {"name": "Tap TV", "url": "https://ott.m3u8.nathcreqtives.com/taptv/manifest.m3u8"},
     {"name": "GMA Pinoy TV", "url": "https://ott.m3u8.nathcreqtives.com/gmapinoytv/manifest.m3u8"},
+    {"name": "Lotus Macau", "url": "https://ott.m3u8.nathcreqtives.com/lotusmacau/stream/manifest.m3u8"},
     {"name": "HBO HD", "url": "https://ott.m3u8.nathcreqtives.com/hbo/manifest.m3u8"},
     {"name": "HBO Hits", "url": "https://ott.m3u8.nathcreqtives.com/hbohitshd/manifest.m3u8"},
     {"name": "HBO Family", "url": "https://ott.m3u8.nathcreqtives.com/hbofamilyhd/manifest.m3u8"},
@@ -79,5 +79,6 @@
     {"name": "Aniplus", "url": "https://ott.m3u8.nathcreqtives.com/aniplus/manifest.m3u8"},
     {"name": "Animexdive", "url": "https://ott.m3u8.nathcreqtives.com/animexdive/stream/manifest.m3u8"},
     {"name": "MYX Global", "url": "https://ott.m3u8.nathcreqtives.com/myxglobal/manifest.m3u8"},
-    {"name": "MTV 90s", "url": "https://ott.m3u8.nathcreqtives.com/mtv90s/stream/manifest.m3u8"}
+    {"name": "MTV 90s", "url": "https://ott.m3u8.nathcreqtives.com/mtv90s/stream/manifest.m3u8"},
+    {"name": "Mindanow Network", "url": "https://streams1.comclark.com/overlay/mindanow/chunks.m3u8"}
 ]
