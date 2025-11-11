@@ -1,0 +1,16 @@
+[Unit]
+Description=ArkTV Input Daemon
+After=graphical-session.target
+PartOf=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=%h/.local/bin/arktv-input-daemon.sh
+Restart=on-failure
+Environment=ARKTV_INPUT_CONFIG=%h/.config/arktv/input.map
+Environment=ARKTV_IPC_SOCKET=/tmp/arktv.socket
+Environment=ARKTV_RUNTIME_DIR=%h/.local/share/arktv
+Environment=ARKTV_STATE_FILE=%h/.local/share/arktv/state.json
+
+[Install]
+WantedBy=default.target

@@ -14,7 +14,7 @@ set -euo pipefail
 # --- Global Variables ---
 CURR_TTY=""
 TTY_CANDIDATES=("/dev/tty1" "/dev/tty0" "/dev/tty")
-MPV_SOCKET="/tmp/mpvsocket"
+MPV_SOCKET="${ARKTV_IPC_SOCKET:-/tmp/arktv.socket}"
 SCRIPT_DIR="$(dirname "$(readlink -f "$0")")"
 DEFAULT_JSON_URL="https://raw.githubusercontent.com/AeolusUX/ArkTV/refs/heads/main/channels/channels.json"
 JSON_URL="$DEFAULT_JSON_URL"
@@ -320,7 +320,7 @@ play_channel() {
 
     manage_mpv_service stop
 
-    ExitMenu
+    return 0
 }
 
 show_channel_menu() {

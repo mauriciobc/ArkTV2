@@ -1,0 +1,9 @@
+KEY_UP: navigate_up
+KEY_DOWN: navigate_down
+KEY_LEFT: navigate_left
+KEY_RIGHT: navigate_right
+KEY_ENTER: confirm_action
+KEY_ESC: back_action
+KEY_SPACE: play_pause
+BTN_SOUTH: confirm_action
+BTN_EAST: back_action
